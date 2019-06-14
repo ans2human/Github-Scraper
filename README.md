@@ -4,7 +4,14 @@ Hi! everyone and welcome to  **Github-Scraper**. Here i have coded a very simple
 
 
 # Installation
+-   You need to download **[chromedriver](http://chromedriver.chromium.org/)** according to your OS for **selenium** to work.
+- Declare the `executable_path` of your chromedriver file.
 
+
+    ```
+    **driver = webdriver.Chrome(executable_path= 'path to chromedriver file')**
+    ```
+    
 -   To make it work you'll need  to install packages from `req.txt`.
 
 - Add your password in the code in encoded form.
