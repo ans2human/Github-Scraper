@@ -14,7 +14,7 @@ try:
         emailid=driver.find_element_by_id("login_field")
         emailid.send_keys("ans2human")
         passw=driver.find_element_by_id("password")
-        pwd = base64.b64decode('YW5zaHVsMTM5NSM=').decode("utf-8")
+        pwd = base64.b64decode('your encoded password').decode("utf-8")
         passw.send_keys(pwd)
         signin=driver.find_element_by_xpath('//*[@id="login"]/form/div[3]/input[4]')
         signin.click()
